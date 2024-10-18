@@ -25,4 +25,8 @@ Feature: Products Page Feature
   Scenario: Log out from the Products page
     Given I am on the Products page
     When I log out
+<<<<<<< HEAD
     Then I should be redirected to the login page
+=======
+    Then I should be redirected to the login page
+>>>>>>> 38e3bcfd17023631ef083aa17139d43e56223c0d
