@@ -25,7 +25,7 @@ public class LoginSteps {
     @Before
     public void setup() {
         // Set the path to the ChromeDriver executable
-        System.setProperty("webdriver.chrome.driver", "E:\\\\drivers\\\\chromedriver-win64\\\\chromedriver.exe");  // Update the path accordingly
+        System.setProperty("webdriver.chrome.driver", "C:\\\\Drivers\\\\chromedriver.exe");  // Update the path accordingly
         
         // Initialize the ChromeDriver
         driver = new ChromeDriver();

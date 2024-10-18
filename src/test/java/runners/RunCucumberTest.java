@@ -9,7 +9,10 @@ import io.cucumber.junit.CucumberOptions;
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    features = "E:\\SQE project\\selenium_mvn_eclipse\\src\\test\\resources\\feature\\login.feature", // Path to your feature files
+    features = {
+        "C:\\Users\\HP\\OneDrive\\Desktop\\selenium_mvn_eclipse\\src\\test\\resources\\feature\\login.feature",   // Path to the login feature file
+        "C:\\Users\\HP\\OneDrive\\Desktop\\selenium_mvn_eclipse\\src\\test\\resources\\feature\\Product.feature"  // Path to the product feature file
+    },
     glue = {"selenium_mvn_eclipse"}, // Package containing step definitions
     plugin = {
         "pretty",
